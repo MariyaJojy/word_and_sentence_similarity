@@ -22,7 +22,7 @@ ttk.Label(window, text="Sentence similarity",
 
 
 #wup similarity score
-def w_simscore(synsets1, synsets2):
+def w_simscore(syn1, syn2):
     global avgScores
     avgScores=0
     score = 0
@@ -49,7 +49,7 @@ def w_simscore(synsets1, synsets2):
     return avgScores
 
 #jcn similarity score
-def j_simscore(synsets1, synsets2):
+def j_simscore(syn1, syn2):
     global avgScores
     avgScores=0
     score = 0
@@ -76,7 +76,7 @@ def j_simscore(synsets1, synsets2):
     return avgScores
 
 #lch similarity score
-def l_simscore(synsets1, synsets2):
+def l_simscore(syn1, syn2):
     global avgScores
     avgScores=0
     score = 0
@@ -102,7 +102,7 @@ def l_simscore(synsets1, synsets2):
     return avgScores
 
 #path similarity score
-def p_simscore(synsets1, synsets2):
+def p_simscore(syn1, syn2):
     global avgScores
     avgScores=0
     score = 0
@@ -129,7 +129,7 @@ def p_simscore(synsets1, synsets2):
     return avgScores
 
 #res similarity score
-def r_simscore(synsets1, synsets2):
+def r_simscore(syn1, syn2):
     global avgScores
     avgScores=0
     score = 0
@@ -155,7 +155,7 @@ def r_simscore(synsets1, synsets2):
     return avgScores
 
 #lin similarity score
-def li_simscore(synsets1, synsets2):
+def li_simscore(syn1, syn2):
     global avgScores
     avgScores=0
     score = 0
